@@ -10,13 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="shortcut icon"
@@ -42,23 +42,141 @@
             <li><a href="#">Login</a></li>
             <li><button class="btn">Sign Up</button></li>
           </ul>
-        </div>    
-</body>
+        </div>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="index.html">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+
+            <li>
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section-padding">
+      <div class="container">
+        <div class="hero-content">
+          <h1>More than just shorter links</h1>
+          <h5>
+            Build your brand’s recognition and get detailed<br />insights on how
+            your links are performing.
+          </h5>
+          <button class="btn">Get Started</button>
+        </div>
+        <div class="hero-image">
+          <img src="images/illustration-working.svg" alt="Illustration" />
+        </div>
+      </div>
+    </section>
+
+  <!-- Url shortener Sec -->
+    <div id="url-shortner" class="section-padding">
+      <div class="container">
+        <input
+          type="text"
+          id="urlInput"
+          placeholder="Shorten a link here..."
+        />
+        <button class="btn" id="shortenedBtn">Shorten It!</button>
+      </div>
+    </div>
+
+    <!-- Stat section -->
+    <section id="statistics" class="section-padding">
+      <div class="container">
+        <div id="shortened-links"></div>
+        <h2>Advanced Statistics</h2>
+        <h5>
+          Track how your links are performing across the web with<br />our
+          advanced statistics dashboard.
+        </h5>
+        <div class="statistics-content">
+          <div class="card">
+            <div class="img-box">
+              <img
+                src="images/icon-brand-recognition.svg"
+                alt="Brand Recognition"
+              />
+            </div>
+            <h3>Brand Recognition</h3>
+            <h5>
+              Boost your brand recognition with<br />each click. Generic links
+              don’t mean a<br />thing. Branded links help instil<br />confidence
+              in your content.
+            </h5>
+          </div>
+
+          <div class="card">
+            <div class="img-box">
+              <img
+                src="images/icon-detailed-records.svg"
+                alt="Detailed Records"
+              />
+            </div>
+            <h3>Detailed Records</h3>
+            <h5>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </h5>
+          </div>
+
+          <div class="card">
+            <div class="img-box">
+              <img
+                src="images/icon-fully-customizable.svg"
+                alt="Fully Customizable"
+              />
+            </div>
+            <h3>Fully Customizable</h3>
+            <h5>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Call to Action Section -->
+  <section id="get-started" class="section-padding">
+      <div class="container">
+        <h2>Boost your links today</h2>
+        <button class="btn">Get Started</button>
+      </div>
+  </section>    
+
+  </body>
 </html>
 
 <!-- 
 
-    Features Pricing Resources Login Sign Up More than just shorter links Build
-    your brand’s recognition and get detailed insights on how your links are
-    performing. Get Started Shorten a link here... Shorten It! Advanced
-    Statistics Track how your links are performing across the web with our
-    advanced statistics dashboard. Brand Recognition Boost your brand
-    recognition with each click. Generic links don’t mean a thing. Branded links
-    help instil confidence in your content. Detailed Records Gain insights into
-    who is clicking your links. Knowing when and where people engage with your
-    content helps inform better decisions. Fully Customizable Improve brand
-    awareness and content discoverability through customizable links,
-    supercharging audience engagement. Boost your links today Get Started
+   
+
+
+   
+  Boost your links today Get Started
     Features Link Shortening Branded Links Analytics Resources Blog Developers
     Support Company About Our Team Careers Contact
  -->
