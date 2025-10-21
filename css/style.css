@@ -284,7 +284,6 @@ nav .container .nav-links-main ul li button:hover {
 }
 
 /* Url shortener sect */
-/* Url Shortener Section */
 #url-shortner {
   position: absolute;
   left: 50%;
@@ -292,9 +291,9 @@ nav .container .nav-links-main ul li button:hover {
   transform: translate(
     -50%,
     -50%
-  ); /* center and pull up by 50% of its height */
+  );
   background-color: var(--dark-violet);
-  background-image: url("/images/bg-boost-desktop.svg");
+  background-image: url("/url-shortening-api-master/images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -356,4 +355,3 @@ nav .container .nav-links-main ul li button:hover {
 #get-started .container button:hover {
   filter: brightness(1.15);
 }
-
